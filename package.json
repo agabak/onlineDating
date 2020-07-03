@@ -1,0 +1,14 @@
+{
+  "name": "onlinedating",
+  "version": "1.0.0",
+  "description": "online dating web site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dating"
+  ],
+  "author": "Agaba Kabunga",
+  "license": "ISC"
+}
