@@ -2,7 +2,7 @@
     'use strict'
 const express = require('express');
 const exhdbrs = require('express-handlebars');
-const port =  3000;
+const port = process.env.PORT || 3000;
 
 var app = express();
 
