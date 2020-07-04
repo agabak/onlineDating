@@ -11,15 +11,15 @@ app.engine('handlebars', exhdbrs({defaultLayout:'main'}));
 app.set('view engine', 'handlebars');
 
 app.get('/', (req, res)=> {
-    res.render('home');
+    res.render('home',{title:"Home"});
 });
 
 app.get('/about',(req,res)=> {
-    res.render('about')
+    res.render('about', {title:"About"})
 })
 
 app.get('/contact',(req,res)=> {
-    res.render('contact');
+    res.render('contact', {title:"Contact"});
 });
 
 app.listen(port, () => {console.log(`Express running with handlebars at port#: ${port}`)})
